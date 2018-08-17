@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Crystalline Jewellery</title>
+	<link rel="stylesheet" href="style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="js/jquery.min.js"></script>
+	<script type="text/javascript">
+		 $(document).ready(function(){
+			$("#navbar, #navbar2").on("click","a", function (event) {
+				event.preventDefault();
+				var id  = $(this).attr('href'),
+					top = $(id).offset().top;
+				$('body,html').animate({scrollTop: top}, 1500);
+			});
+		});
+		</script>
+		<script src="js/wow.min.js"></script>
+              <script>
+              new WOW().init();
+              </script>
+	<link rel="stylesheet" href="css/animate.css">
+	<link href="https://fonts.googleapis.com/css?family=Old+Standard+TT:400,400i,700" rel="stylesheet">
+	<link rel="stylesheet" href="css/font-awesome.css">
+</head>
+<body>
+	<div class="block1">
+		<menu id="navbar">
+			<ul>
+				<li style="margin-top: 0px;"><a href=".block1">01</a></li>
+				<li><a href=".block2">02</a></li>
+				<li><a href=".block3">03</a></li>
+				<li><a href=".block4">04</a></li>
+				<li><a href=".block5">05</a></li>
+			</ul>
+		</menu>
+		<div id="flex1">
+			<p id="logo">Crystalline Jewellery</p>
+			<p id="pallete">new pallete</p>
+			<hr>
+			<ul id="navbar2">
+				<li><a href=".block1">Home</a></li>
+				<li><a href=".block2">Description</a></li>
+				<li><a href=".block3">About Quality</a></li>
+				<li><a href=".block4">Gallery</a></li>
+				<li><a href=".block5">Contact</a></li>
+			</ul>
+			<p id="collection">collection <span>"square root"</span></p>
+			<p id="especially">especially for those who consider the main <br> detail of the image of large earrings</p>
+				<div id="gallery" class="wow fadeInLeft">
+					<input type="radio" name="slides" id="point1" checked>
+					<input type="radio" name="slides" id="point2">
+					<input type="radio" name="slides" id="point3">
+						<div class="slider">
+							<div class="slides img1"></div>
+							<div class="slides img2"></div>
+							<div class="slides img3"></div>
+						</div>
+						<div class="control">
+							<label for="point1"></label>
+							<label for="point2"></label>
+							<label for="point3"></label>
+						</div>
+				</div>
+				<div class="buy">
+					<div id="borderr" class="wow fadeInRight"></div>
+					<div id="buy_text" class="wow fadeInRight">
+						<h2>Clip earrings with<br> jade and rose quartz</h2>
+						<br><h3>Earrings with semi-precious stones in gold-tone brass. Pendant 6 cm, weight 23 g each. A set of earrings comes in individual, branded packaging.</h3>
+						<br><a href="https://www.crystalline-jewellery.com/collections/earrings/products/clip-earrings-with-agate-and-rose-quartz-1" target="_blank"><button><p>BUY</p></button></a>
+					</div>
+				</div>
+		</div>
+	</div>
+	<div class="block2">
+			<div id="png1"></div>
+			<div id="png2"></div>
+		<div id="flex2" class="wow fadeIn">
+			<div><h2>«Fashionable Suprematism»</h2></div>
+			<div id="left"><p>Earrings, bracelets, necklaces and brooches were included in the "Suprematist" collection of Square Root, and the designer chose the quadrilateral as the predominant form.</p></div>
+			<div id="right"><p>All products are made by hand by Italian craftsmen, carefully and enthusiastically turning jasper, opal and agate into ornaments worthy of museum halls.</p></div>
+		</div>
+			
+	</div>
+	<div class="block3">
+		<div class="flex3">
+			<img src="img/4(2).png" alt="" id="png3">
+			<div id="block6" class="wow fadeInRight">
+				<div id="borderrr"></div>
+				<div id="block7">
+					<h1>Handmade</h1>
+					<h3>Strict form implies mandatory accuracy, in this case - the manual work of the best masters.</h3>
+				</div>
+			</div>
+			<div id="block6" class="wow fadeInRight">
+				<div id="borderrr"></div>
+				<div id="block7">
+					<h1>Color</h1>
+					<h3>Decoration Crystalline Jewelery, consists mainly of multi-colored and moderately avant-garde earrings <br> from gems.</h3>
+				</div>
+			</div>
+			<div id="block67" class="wow fadeInLeft">
+				<div id="borderrr"></div>
+				<div id="block7">
+					<h1>Form</h1>
+					<h3>However, as the Suprematist tradition requires, a strict form implies an obligatory bright content.</h3>
+				</div>
+			</div>
+			<div id="block67" class="wow fadeInLeft">
+				<div id="borderrr"></div>
+				<div id="block7">
+					<h1>Production</h1>
+					<h3>In production, laborious technique of intarsia is used, which allows "seamlessly" connecting stones of different shades and textures.</h3>
+				</div>
+			</div>
+			<img src="img/3(2).png" alt="" id="png4">
+		</div>
+	</div>
+	<div class="block4">
+		<div class="flex4">
+			<div class="block7">
+				<h3>choose your perfect pair</h3>
+				<hr>
+				<br><h2>We teach light-minded women of fashion to geometric rigor.</h2>
+				<h3 id="designer" class="wow fadeInLeft">Designer Elena Kosenkova continues to rethink the heritage of Supremacists in a jewelry workshop</h3>
+				<div id="boorder" class="wow fadeInLeft">
+					<div></div>
+					<h2>brooches</h2>
+				</div>
+				<div id="gallery2" class="wow fadeInLeft">
+					<input type="radio" name="slidess" id="pointt1" checked>
+					<input type="radio" name="slidess" id="pointt2">
+					<input type="radio" name="slidess" id="pointt3">
+					<input type="radio" name="slidess" id="pointt4">
+						<div class="sliderr">
+							<div class="slidess img11"></div>
+							<div class="slidess img22"></div>
+							<div class="slidess img33"></div>
+							<div class="slidess img44"></div>
+						</div>
+						<div class="controll">
+							<label for="pointt1"></label>
+							<label for="pointt2"></label>
+							<label for="pointt3"></label>
+							<label for="pointt4"></label>
+						</div>
+				</div>
+			</div>
+			<div id="block8" class="wow fadeInRight">
+				<div class="gallery3">
+					<input type="radio" name="slidesss" id="pointtt1" checked>
+					<input type="radio" name="slidesss" id="pointtt2">
+					<input type="radio" name="slidesss" id="pointtt3">
+					<input type="radio" name="slidesss" id="pointtt4">
+					<input type="radio" name="slidesss" id="pointtt5">
+						<div class="sliderrr">
+							<div class="slidesss img111"></div>
+							<div class="slidesss img222"></div>
+							<div class="slidesss img333"></div>
+							<div class="slidesss img444"></div>
+							<div class="slidesss img555"></div>
+						</div>
+						<div class="controlll">
+							<label for="pointtt1"></label>
+							<label for="pointtt2"></label>
+							<label for="pointtt3"></label>
+							<label for="pointtt4"></label>
+							<label for="pointtt5"></label>
+						</div>
+				</div>
+				<div class="booorder">
+					<div></div>
+					<h2>earrings</h2>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="block5">
+		<div class="flex5">
+			<div id="right5">
+				<p>
+					Crystalline Jewellery
+					<br>57, rue Grimaldi, le Panorama AB 7eme etage c/o Alliance,
+					<br>98000 Monaco
+					<br><span><u>crystallineshopping@gmail.com</u></span>
+				</p>
+				<a href="https://www.facebook.com/CRYSTALLINE.CrystallineJewellery/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+				<a href="https://www.instagram.com/crystallinejewellery/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+			</div>
+			<div id="center">
+				<input type="text" placeholder="Name" id="one">
+				<input type="text" placeholder="Email" id="two">
+				<input type="text" placeholder="Phone Number" id="three">
+				<textarea name="four" placeholder="Massage" id="four"></textarea>
+				<button><p>SEND</p></button>
+			</div>
+			<div id="left5">
+				<p>© 2018, Crystalline Jewellery
+					Powered by Shopify</p>
+				<img src="img/6.png" alt="" id="png6">
+			</div>
+		</div>
+	</div>
+</body>
+</html>
